@@ -38,6 +38,26 @@ public class array1 {
         for(int i=0;i<n;i++){
             System.out.println(arr[i]);
         }
-
+        /*
+        Arrays can be classified into two types : on basis of size and on basis of dimensions
+        On basis of size : Fixed size and Dynamic size
+        On basis of dimension : 1D , 2D, 3D ....
+        Fixed Size : We cannot alter or update the size of this array.
+        Here only a fixed size (i,e. the size that is mentioned in square brackets [])
+        of memory will be allocated for storage. In case, we don't know the size of the array then if we declare
+        a larger size and store a lesser number of elements will result in a wastage of memory or we declare a lesser
+        size than the number of elements then we won't get enough memory to store all the elements.
+        In such cases, static memory allocation is not preferred.
+        Dynamic arrays : The size of the array changes as per user requirements during execution of code so the
+        coders do not have to worry about sizes. They can add and removed the elements as per the need.
+        The memory is mostly dynamically allocated and de-allocated in these arrays.
+         */
+        // DYNAMIC ARRAYS
+        ArrayList<Integer> arr2 = new ArrayList<>();
+        /*
+        Arrays traversal :
+        1. Sequential (Linear Traversal) = from index 0 to last index
+        2. Reverse Traversal = from last index to index 0
+         */
     }
 }
